@@ -1,0 +1,62 @@
+
+body{
+
+	background-color: grey;
+}
+
+
+.container{
+
+		height:1080px;
+		width: 889px;
+		background-color: gray;
+
+}
+
+div.container-fluid {
+	height:230px;
+	width:190px ;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: justify-all;
+	background-color: whitesmoke;
+	
+
+}
+.container-fluid li{
+
+	list-style: none;
+
+}
+
+
+
+
+
+ul.container-fluid h4 {
+			float:left;
+			text-align: center;
+
+
+}
+
+ul.container-fluid li {
+
+
+	text-decoration: ;
+}
+
+div.input-sm {
+
+		margin-right: 50px;
+
+}
+
+div.jumbotron h3 {
+
+	display: flex;
+	justify-content: flex-start;
+	margin-left: -15px;
+}
+

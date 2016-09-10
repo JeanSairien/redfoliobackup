@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+iframe{
+		display: flex;
+		justify-content: center;
+		height:350px;
+		width: 450px;
+
+}
+
+
+.footer{
+	display:flex;
+	justify-content: center;
+	margin-top: 150px;
+	margin-left: 350px;
+}
+
+h6.nintendo{
+	display:flex;
+	justify-content: center;
+	color: red;
+	font-family:"VT323";
+	color:red;
+	box-shadow: -2px 1px 1px 6px ;
+	border-radius: 100px;
+	border-color: red;
+	padding: 1px 1px 1px 11px;
+	background-color: white;
+
+}
+.col-md-4 p{
+	display:flex;
+	justify-content: center;
+
+
+
+}
+
+textarea {
+	float:left;
+	
+
+
+
+}

@@ -1,0 +1,173 @@
+body{
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+header{
+		margin-top: 100px;
+		margin-bottom: 50px;		
+
+}
+
+.carousel-caption:nth-child(3n+0) {
+
+	margin-bottom: 250px;
+}
+
+
+
+section{
+	background-color: blue;
+	margin-top: 50px;
+}
+
+section.col-md-4{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.col-md-4 figcaption{
+	animation-duration: 4s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+
+	from {
+		margin-right:100%;
+		width: 300%;
+	}
+
+	to {
+		margin-right: 0;
+		width: 100%;
+
+	}
+}
+
+div.img1{
+	height:150px;
+	width:100%;
+	background-image:url("../img/bootstrap.png");
+	background-size: cover;
+	background-position: center;
+	animation-duration: 4s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+
+	from {
+		margin-left:300%;
+		width: 300%;
+	}
+
+	to {
+		margin-right: 0;
+		width: 100%;
+
+	}
+}
+	
+
+
+div.img2{
+	height:150px;
+	width:100%;
+	background-image:url("../img/kali.jpg");
+	background-size: cover;
+	background-position: center;
+	animation-duration: 4s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+
+	from {
+		margin-left:100%;
+		width: 300%;
+	}
+
+	to {
+		margin-right: 0;
+		width: 100%;
+
+	}
+}
+	
+
+
+div.img3{
+	height:150px;
+	width:100%;
+	background-image:url("../img/php.jpg");
+	background-size: cover;
+	background-position: center;
+	animation-duration: 4s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+
+	from {
+		margin-left:100%;
+		width: 300%;
+	}
+
+	to {
+		margin-right: 0;
+		width: 100%;
+
+	}
+}
+	
+
+
+
+
+
+
+section.col-md-4:nth-child(3){
+	margin-top: 350px;
+	float:right;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.footer{
+	display:flex;
+	justify-content: center;
+	margin-top: 150px;
+	margin-left: 350px;
+}
+
+h6.nintendo{
+	display:flex;
+	justify-content: center;
+	color: red;
+	font-family:"VT323";
+	color:red;
+	box-shadow: -2px 1px 1px 6px ;
+	border-radius: 100px;
+	border-color: red;
+	padding: 1px 1px 1px 11px;
+	background-color: white;
+}
+.col-md-4 p{
+	display:flex;
+	justify-content: center;
+
+
+
+}
+
+pre{
+
+	background-color: gray;
+	color: whitesmoke;	
+
+
+}

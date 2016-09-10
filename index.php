@@ -26,10 +26,10 @@
 	    <a class="navbar-brand" href="#">Red-Folio</a>
 	    <ul class="nav navbar-nav">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="bootstrap.html">Bootstrap</a>
+	        <a class="nav-link" href="#">Bootstrap</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#">Kali</a>
@@ -53,13 +53,13 @@
 			      <img height="768px" width="1366px" src="img/bootstrap.png" alt="First slide">
 			      <div class="carousel-caption">
     				<h3>Boostrap 4</h3>
-    				<p>Sublime You're code with Alpha Bootstrap 4 version</p>
+    				<p>Sublime You're textarea with Alpha Bootstrap 4 version</p>
   					</div>
 			    </div>
 			    <div class="carousel-item">
 			      <img height="768px" width="1366px" src="img/kali.jpg" alt="Second slide">
 			      	<div class="carousel-caption">
-					    <h3>Secure You're skillz White the most Popular :Kali</h3>
+					    <h3>Secure You're skillz White the most Populair :Kali</h3>
     					<p>Ethical Thing we trust !</p>
 					 </div>
 			    </div>
@@ -86,16 +86,15 @@
 		<div class="container">
 		<section >
 				<div class="col-md-4">
-					<div class="img1"></div>
-					<!--<img href="" height="150px" width="180px" src="img/bootstrap.png"/>-->
-					<figcaption>Bootstrap 4 sublime you're code</figcaption>
+					<img href="" height="150px" width="180px" src="img/bootstrap.png"/>
+					<figcaption>Bootstrap 4 Votre textarea sublimé!</figcaption>
 
 				</div>
 
 				<div class="col-md-8">
-				<h1>The News</h1>
-				<p> News fonctionnalities</p>
-				<h2>Enjoy nows the new bootstrap 4 experiments  : find your remaster components to contemporary taste : jumbotron improved website , canvas , functionalities added to the container and many others , they will Enjoy your developments !!! </h2>
+				<h1>Les NOuveautées</h1>
+				<p>De nouvelle fonctionnalité</p>
+				<h2>Profitez des maintenants de la nouvelle experiences bootstrap 4 : retrouvez vos composants remasteriser au gout du jour : jumbotron amelioré , canvas , fonctionnalitées ajouté au container et plein d'autres, ils feront le bonheure de vos developpements !!!  </h2>
 				</div>
 
 		</section>
@@ -104,19 +103,16 @@
 		<div class="container">
 		<section >
 				<div class="col-md-4 col-md-offset-4">
-					<div class="img2"></div>
-					<!--<img href="" height="150px" width="180px" src="img/kali.jpg"/>-->
-					<figcaption>Sécurity Research and Development</figcaption>
+					<img href="" height="150px" width="180px" src="img/kali.jpg"/>
+					<figcaption>Sécurité recherche et developpement </figcaption>
 
 				</div>
 
 				<div class="col-md-8">
 				<h1>Kali Linux</h1>
-				<p>Ethics penetration test</p>
-				<h2>Ethercap , Metasploit , Nmap , Nikto and many others; An arsenal of tools to develop your strategy for security  </h2>
+				<p>Prevention Ethique</p>
+				<h2>Ethercap, Metasploit, Nmap, nikto et bien d'autres ; Tout un arsenal d'outils pour mettre au point vos strategie de securité  </h2>
 				</div>
-
-
 
 		</section>
 		</div>
@@ -125,16 +121,15 @@
 		<div class="container">
 		<section >
 				<div class="col-md-4 col-md-offset-4">
-					<div class="img3"></div>
-					<!--<img href="" height="150px" width="180px" src="img/php.jpg"/>-->
+					<img href="" height="150px" width="180px" src="img/php.jpg"/>
 					<figcaption>Php 7 </figcaption>
 
 				</div>
 
 				<div class="col-md-8">
 				<h1>Php 7</h1>
-				<p>You're dynamise sites</p>
-				<h2>Upload your contained , synchronize your database files , Php will revolutionize your development </h2>
+				<p>vos site dynamique</p>
+				<h2>Uploader vos contenue , synchroniser vos données en base de données, Php Va revolutionner vos developpement </h2>
 				</div>
 
 		</section>
@@ -146,16 +141,21 @@
 						<p>Copyright ShambhalaCorp 2016</p>
 				</div>
 				<div class="col-md-8">
-<pre><code>
-&lt;footer class="footer"&gt;
-	&lt;div class="col-md-12"&gt;
-		&lt;div class="col-md-4"&gt;
-			&lt;h6 class="nintendo"&gt;Powered By Dr.Redfish&lt;/h6&gt;
-			&lt;p&gt;Copyright "©" ShambhalaCorp 2016&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;       
-&lt;footer&gt;
-</code></pre>
+					
+						
+							<textarea>
+								<footer class="footer">
+									<div class="col-md-12">
+										<div class="col-md-4">
+											<h6 class="nintendo">Powered By Dr.Redfish</h6>
+											<p>Copyright ShambhalaCorp 2016</p>
+										</div>
+									</div>       
+								<footer>
+							
+							</textarea>
+						
+								
 				</div>
 						
 				

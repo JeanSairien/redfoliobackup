@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+<title>Test BOotstrap </title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<!--link css perso qui permet daffiner et de completer bootstrap-->
+  <link rel="stylesheet" type="text/css" href="css/test.css">
+  <!-- link css de bootstrap d'originie -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">  
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'> 
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>	
+
+<!-- le container permet d'englober plusieur block avec certaine proprieté-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div class="container"> <!--block qui contient dautre blocks-->
+
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Bootstrap graphical lexicon</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="test2.html">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+<section>		
+	<header>
+		
+	<div id="section1" class="jumbotron">
+		<!-- le h1  est une classe par default dans bootstrap pas besoin de lui assigner un class particuliere pareille pour les autres titres-->
+		<h1>Bootstrap In testing</h1>
+		<h2>BOotstrap en plus petit</h2><!-- de plus en plus petit-->
+		<!-- le jumbotron permet de mettre en avant un bloc contenue dans le container superieur-->
+		<h3> Nous preparons le jumbotron</h3>
+
+		<textarea class="textarea"><!-- grace au well un cadre se positionne automatiquement ce qui nous evite les paddings et margins trop fastidieux--><!-- vous remarquer le h5 plus petit il faut aussi savoir que le bootstrap s'aligne parfaitement a notre container--></textarea>
+		
+		<h5>l'encadrement</h5>
+		<article class="well"><!--il faut savoir que toute les classes par default du html sont integré au bootstrap sans class comme si vous fesiez votre propres css-->
+		<h4>l'article</h4>
+		<p>Vous pouvez retrouver les balises d'origine du html dans le bootstrap (sans class ni id)</p>
+		</article>
+	</div>	
+	</header>
+	
+	<div id="section2" class="container">
+	
+		<div class="col-md-12">
+		<div class="col-sm-4">
+			<h1>CooOlllUmn1</h1>
+			<p>le text de la collonnne numero 1!!! </p>
+		</div>
+		<div class="col-sm-4">
+			<h1>CooOlllUmn2</h1>
+			<p>Ici les collones s'agence parfaitement grace a la class col-sm-4 col=collone sm= small et 4 pour la taille </p>
+		</div>
+		<div class="col-sm-4">
+			<h1>CooOlllUmn3</h1>
+			<p>il est toujour possible d'ajuster avec un fichier css perso</p>
+		</div>
+		</div>
+	<button data-toggle="collapse" data-target="#demo">collapse</button>
+	<div id="demo" class="collapse">
+	<hgroup><!-- sert a regrouper des titres ou texte-->
+	<ul class="list-group">
+		<li class="list-group-sitem"><h1> the first</h1></li>
+		<li class="list-group-sitem"><h2> the two</h2></li>
+		<li class="list-group-sitem"><h3> the third</h3></li>
+	</ul>	
+	</hgroup>
+	</div>
+		<div class="panel panel-warning"><!-- ouvertur de menu contextuel-->
+			<div class="panel-header">haut de panel</div><!-- class de tete de panel-->
+			<div class="panel-body">corps du panel</div><!-- class de corps du menu-->
+			<div class="panel-footer">pied de panel</div>
+			<!-- comme en html pure on retrouve le header body footer pour le panel-->
+			
+		</div>
+
+	
+	</div>
+
+
+
+</div>
+	<!-- la class pager permet de passer d'une page a lautres-->
+	<ul class="pager">
+		<li><a href="../index.html">precedents</a></li>
+		<li><a href="">suivants</a></li>
+	</ul>	
+	
+	<div class="alert alert-warning">
+	 <a>Attention a vos class !</a>
+	</div>
+
+<footer>
+	
+
+
+
+
+<figure role="img" aria-labelledby="fish-caption"> 
+ <pre>
+ o           .'`/
+     '      /  (
+   O    .-'` ` `'-._      .')
+      _/ (o)        '.  .' /
+      )       )))     ><  <
+      `\  |_\      _.'  '. \
+        '-._  _ .-'       '.)
+           `\__\
+ </pre>
+ 
+</figure> 
+   
+
+
+
+</footer>
+</div>
+</body>
+</html>
