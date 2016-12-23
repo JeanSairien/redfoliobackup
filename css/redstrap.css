@@ -1,15 +1,32 @@
+body{
+
+	background-color: orange!important;
+	margin: 0 auto;
+	padding: 0 auto;
+
+
+}
+
+
+header{
+	display:flex;
+	justify-content: center;
+	margin-top: 50px;
 
 
 
 
+}
 
 
 
 iframe{
 		display: flex;
 		justify-content: center;
+		margin-bottom: 50px!important;
 		height:350px;
-		width: 450px;
+		width: 850px;
+
 
 }
 
@@ -33,10 +50,18 @@ h6.nintendo{
 	padding: 1px 1px 1px 11px;
 	background-color: white;
 
+
 }
+.col-md-4{
+margin-left:330px;
+
+
+}
+
 .col-md-4 p{
 	display:flex;
 	justify-content: center;
+	
 
 
 
@@ -44,8 +69,64 @@ h6.nintendo{
 
 textarea {
 	float:left;
+	width:450px;
+	height: 450px;
 	
+
+
+}
+
+
+
+
+
+
+.img{
+
+	background-image:url("../img/bootstrap.png"); 
+	background-repeat: no-repeat;	
+	height: 600px;
+	width: 980px;
+
 
 
 
 }
+
+.In{
+	background-image:url("../img/in.png");
+	width: 128px;
+	height: 128px;
+}
+
+.git{
+	background-image:url("../img/git.png");
+	
+	width: 128px;
+	height: 128px;
+}
+
+.twitter{
+	background-image:url("../img/twit.png");
+	width: 128px;
+	height: 128px;
+}
+
+
+#bgp{
+	
+	margin-left: 430px;
+	background-image:url("../img/abstract.jpg");
+	background-size: 80px 80px;
+	width: 80px;
+	height:80px;	
+}
+
+
+footer{
+
+	margin-top: 150px;
+
+
+}
+

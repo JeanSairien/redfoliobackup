@@ -1,30 +1,32 @@
 # Red-Folio
-Voici mon red-folio 
+Welcome to my redfolio 
 
 
 ### Setup
-		ici la page "index.html" est la page d'accueil elle est ecrite en anglais (Bien entendue les traducteurs mon quelque peu aider ) cest la page principale comme demander 
+		The "index.php" must be open here, I'm sorry that I used an include, but I've asked Mr. Duclos to use them. I didn't want to lose anytime to add  a navbar and a footer again and again.
+		
+In the index we have :
 
-la page index presente :
+I used bootstrap for the carrousel, the navbar and any elements I thought usefull
 
-*J'ais utiliser un carousel et plusieurs sections et une navbar fix >
+* Bootstrap :
+ 			one page "bootstrap.php" with a part of my initiating bootstrap lexicon in a iframe (sorry about that) and a link to the full page lexicon
 
-* Le bootstrap :
- 			une page "bootstrap.html" avec un extrait de mon lexique graphique qui est toujour en cours de 				developpement ainsi qu'un lien vers la pages complete (pardon pour l'iframe ).
+* Kali linux : a page is comming like winter
 
-* Kali linux : une page est prevue dans l'avancenment du projet
-
-* Php 7 : de meme une page sera mise en place
+* Php 7 : another page is comming 
 
 
 
-## Remarques 
+## Comments 
 
-Pardon pour l'orthographe et la moitier en englais et la moitier en francais ( pas evidents de traduire tout pour le lexique (a envisager ulterieurement ))
+Sorry for bad english
 
-Le responsive reste encore a revoir (quelques positionements et compatibilitées sous certaines résolutions )
+Sorry the responsive isn't done 
 
-j'ais aussi integrer mon logo nintendo dans le footer de plusieur pages et afficher le code (le positionnement laisse a désiré)
+Sorry about the little problems with my lexicon and its sizing (not beautifull isn't it?)
+
+I have add the nintendo logo with the right font
 
 ### 
 
